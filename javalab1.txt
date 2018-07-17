@@ -1,6 +1,9 @@
-public class RectangleAreaPerimeter {
+ */public class RectangleAreaPerimeter {
     public static void main(String args[]) {
-        int length, width, area, perimeter;
+        int length;
+	int width;
+	int area;
+	int perimeter;
    
         Scanner in = new Scanner(System.in);
         System.out.println ("Welcome to Grand Circus' Room Detail Generator!");
@@ -14,5 +17,37 @@ public class RectangleAreaPerimeter {
         perimeter = 2*(length + width);
         System.out.println("Area of Rectangle : "+ area);
         System.out.println("Rectangle of Rectangle : "+ perimeter);
+        System.out.println("Continue? (y/n): ");
+    }
+}
+
+/*
+
+
+	     System.out.println("Continue? (y/n): ");
+
+   System.out.println ("Enter Length: ");
+            double L = scanL.nextDouble();
+            Scanner scanW = new Scanner (System.in);
+            System.out.println("Enter Width: ");
+            double W = scanW.nextDouble();
+            //int W = scanW.nextInt();
+            double RectangleArea;
+            Rectangle unitRectangle = new Rectangle(); 
+            RectangleArea = unitRectangle.FindArea();
+            System.out.println("Area: ");
+
+            double RectanglePermiter;
+            Rectangle perimRectangle = new Rectangle();
+            RectanglePerimeter = perimRectangle.FindPerim();
+            System.out.println("Perimeter: ");
+
+boolean stop = false;    
+while(!stop) {
+    //do whatever
+    System.out.println("Would you like to continue? (yes or no)");
+    String s = scan.nextLine();
+    if(s.equals("no")) {
+        stop = true;
     }
 }

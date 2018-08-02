@@ -11,8 +11,7 @@ public class RectangleAreaPerimeter {
             double width = 0.0;
             double area = 0.0;
             double perimeter = 0.0;
-            double volume = 0.0;
-            double height = 0.0;
+            
            
             
             //used do loop for users input 
@@ -24,16 +23,10 @@ public class RectangleAreaPerimeter {
             System.out.print("Enter width: ");
             width = scnr.nextDouble();
 
-            System.out.print("Enter height: ");
-            height = scnr.nextDouble();
-            //all calculations of area, perimeter, and volume
-            area = length * width;
-            perimeter = (length * 2) + (width * 2);
-            volume = length * width * height;
-
+            
             System.out.println("Area: " + area + " inches");
             System.out.println("Perimeter: " + perimeter + " inches");
-            System.out.println("Volume: " + volume + " inches");
+            
 
             System.out.println("Continue? (y/n): ");
             keepGoing = scnr.next();

@@ -31,9 +31,9 @@ public class RectangleAreaPerimeter {
             perimeter = (length * 2) + (width * 2);
             volume = length * width * height;
 
-            System.out.println("Area: " + area + " sq. inches");
+            System.out.println("Area: " + area + " inches");
             System.out.println("Perimeter: " + perimeter + " inches");
-            System.out.println("Volume: " + volume + " cube inches");
+            System.out.println("Volume: " + volume + " inches");
 
             System.out.println("Continue? (y/n): ");
             keepGoing = scnr.next();
